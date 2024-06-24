@@ -15,9 +15,11 @@ body {
 }
 
 #displayText {
-    margin-top: 20px;
     font-size: 3vw;
     color: green;
-    top: 20vh;
-    width: 100%;
+    position: absolute;
+    top: 20vh; /* Position the text in the top half of the browser window */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
