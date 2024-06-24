@@ -23,5 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function showText() {
         //displayText.style.display = 'block';
         background.style.display = 'block';
+        button.style.display = 'none';
     }
 });
