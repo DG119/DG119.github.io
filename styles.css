@@ -15,10 +15,10 @@ body {
 }
 
 #displayText {
-    font-size: 3vw;
+    font-size: 5vw;
     color: green;
     position: absolute;
-    top: 20vh; /* Position the text in the top half of the browser window */
+    top: 15vh; /* Position the text in the top half of the browser window */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
