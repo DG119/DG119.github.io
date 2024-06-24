@@ -1,1 +1,1 @@
-# [Open site]((https://dg119.github.io/)){:target="_blank"}
+# [Open site](https://dg119.github.io/){:target="_blank"}
