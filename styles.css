@@ -1,40 +1,48 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-}
-#background {
-    position: relative;
-    width: 80vh;
-    height: 80vh; /* occupy 80% of the viewport height */
-    background: url('banner.jpg') no-repeat center center;
-    background-size: cover;
-    z-index: 1;
-}
-#content {
-    position: relative;
-    z-index: 2; /* place it above the background */
-    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f0f0; /* fallback color */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    position: relative;
 }
-#randomButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    position: relative; /* Ensure the button can be absolutely positioned */
-}
-#displayText {
-    font-size: 5vw;
-    color: green;
+
+#background {
     position: absolute;
-    top: 8vh; /* Position the text in the top half of the browser window */
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    height: 75vh; /* occupy 75% of the viewport height */
+    top: 12.5vh; /* center the background vertically */
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 1; /* place it behind the content */
+}
+
+#content {
+    position: relative;
+    z-index: 2; /* place it above the background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items at the start */
+    height: 25vh; /* Take the remaining 25% of the viewport height */
+    width: 100%;
+}
+
+#randomButton {
+    padding: 1vh 2vw;
+    font-size: 2vw;
+    cursor: pointer;
+    position: relative;
+}
+
+#displayText {
+    font-size: 3vw;
+    color: green;
+    margin-top: 2vh; /* Adjust spacing as needed */
     text-align: center;
     display: none;
 }
