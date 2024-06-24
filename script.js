@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showText() {
-        displayText.style.display = 'block';
+        //displayText.style.display = 'block';
         background.style.display = 'block';
     }
 });
