@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('randomButton');
     const displayText = document.getElementById('displayText');
-    const background = document.getElementById('background');
+    const content = document.getElementById('content');
 
     button.addEventListener('mouseover', moveButton);
     button.addEventListener('click', showText);
 
     function moveButton() {
-        const backgroundRect = background.getBoundingClientRect();
+        const contentRect = content.getBoundingClientRect();
 
-        const maxX = backgroundRect.width - button.clientWidth;
-        const maxY = backgroundRect.height - button.clientHeight;
+        const maxX = contentRect.width - button.clientWidth;
+        const maxY = contentRect.height - button.clientHeight;
 
         const x = Math.random() * maxX;
         const y = Math.random() * maxY;
