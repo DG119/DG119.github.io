@@ -6,6 +6,13 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+#background {
+    position: relative;
+    width: 75vh;
+    height: 75vh; /* occupy 75% of the viewport height */
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+}
 #randomButton {
     padding: 10px 20px;
     font-size: 16px;
@@ -20,4 +27,5 @@ body {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    display: none;
 }
