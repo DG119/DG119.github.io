@@ -8,8 +8,8 @@ body {
 }
 #background {
     position: relative;
-    width: 75vh;
-    height: 75vh; /* occupy 75% of the viewport height */
+    width: 80vh;
+    height: 80vh; /* occupy 80% of the viewport height */
     background: url('banner.jpg') no-repeat center center;
     background-size: cover;
 }
