@@ -1,36 +1,23 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden;
-    background-color: #f0f0f0; /* fallback color */
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-
-#background {
-    position: relative;
-    width: 100%;
-    height: 75vh; /* occupy 75% of the viewport height */
-    background: url('banner.jpg') no-repeat center center;
-    background-size: cover;
-}
-
 #randomButton {
-    padding: 1vh 2vw;
-    font-size: 2vw;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
-    position: absolute;
+    position: relative; /* Ensure the button can be absolutely positioned */
 }
-
 #displayText {
-    font-size: 3vw;
+    font-size: 5vw;
     color: green;
     position: absolute;
-    top: 5vh; /* Adjusted to keep it in the top half of the viewport */
+    top: 8vh; /* Position the text in the top half of the browser window */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    display: none;
 }
