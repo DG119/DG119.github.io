@@ -8,11 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function moveButton() {
         const backgroundRect = background.getBoundingClientRect();
-        const buttonWidth = button.clientWidth;
-        const buttonHeight = button.clientHeight;
 
-        const maxX = backgroundRect.width - buttonWidth;
-        const maxY = backgroundRect.height - buttonHeight;
+        const maxX = backgroundRect.width - button.clientWidth;
+        const maxY = backgroundRect.height - button.clientHeight;
 
         const x = Math.random() * maxX;
         const y = Math.random() * maxY;
