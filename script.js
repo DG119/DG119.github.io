@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
 
     let teleportCount = 0;
-    const maxTeleports = 8;
+    const maxTeleports = 13;
 
     button.addEventListener('mouseover', moveButton);
     button.addEventListener('click', showText);
