@@ -16,6 +16,8 @@ body {
 
 #displayText {
     margin-top: 20px;
-    font-size: 50px;
-    color: red;
+    font-size: 3vw;
+    color: green;
+    top: 20vh;
+    width: 100%;
 }
