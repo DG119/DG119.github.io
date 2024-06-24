@@ -13,8 +13,8 @@ body {
 
 #background {
     position: absolute;
-    width: 80vh;
-    height: 80vh; /* occupy 75% of the viewport height */
+    width: 90vh;
+    height: 90vh; /* occupy 75% of the viewport height */
     background: url('banner.jpg') no-repeat center center;
     background-size: cover;
     z-index: 1; /* place it behind the content */
