@@ -25,9 +25,9 @@ body {
 }
 
 #displayText {
-    font-size: 6vw;
+    font-size: 15px;
     color: green;
-    position: absolute;
+    position: relative; /* Ensure the button can be absolutely positioned */
     top: 5vh; /* Adjusted to keep it in the top half of the viewport */
     left: 50%;
     transform: translateX(-50%);
