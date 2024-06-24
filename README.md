@@ -1,1 +1,1 @@
-# <a href="https://dg119.github.io/" target="_blank">Open site</a>
+# [Open site]([url_link](https://dg119.github.io/)){:target="_blank"}
