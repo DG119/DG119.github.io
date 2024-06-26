@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('randomButton');
     const displayText = document.getElementById('displayText');
     const content = document.getElementById('content');
+    const background = document.getElementById('background');
 
     let teleportCount = 0;
     const maxTeleports = 13;
